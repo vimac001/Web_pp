@@ -1,0 +1,15 @@
+body {
+    background-color: #eee;
+}
+
+.arg-name, .cookie-key{
+    color: #00a;
+}
+
+.arg-val, .cookie-val{
+    color: #aa0;
+}
+
+.eql{
+    color: #aaa;
+}

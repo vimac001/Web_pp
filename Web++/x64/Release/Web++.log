@@ -1,0 +1,48 @@
+﻿Der Buildvorgang wurde am 29.09.2015 21:04:40 gestartet.
+     1>Projekt "C:\Users\vikto\OneDrive\Dokumente\Web++\Web++\Web++.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt ..\app\MainController.cpp ..\app\SiteController.cpp ..\app\Web++\CoreApp.cpp ..\app\Web++\CoreController.cpp ..\app\Web++\MainApp.cpp ..\app\Web++\MethodController.cpp ..\app\Web++\QueryArg.cpp ..\app\Web++\RESTController.cpp ..\app\Web++\Request.cpp ..\app\Web++\Response.cpp ..\app\Web++\RouteTree.cpp ..\main.cpp
+         MainController.cpp
+         SiteController.cpp
+         CoreApp.cpp
+         CoreController.cpp
+         MainApp.cpp
+         MethodController.cpp
+         QueryArg.cpp
+         RESTController.cpp
+         Request.cpp
+         Response.cpp
+         RouteTree.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vikto\OneDrive\Dokumente\Web++\x64\Release\Web++.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\vikto\OneDrive\Dokumente\Web++\x64\Release\Web++.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vikto\OneDrive\Dokumente\Web++\x64\Release\Web++.lib" /MACHINE:X64 x64\Release\MainController.obj
+         x64\Release\SiteController.obj
+         x64\Release\Cookie.obj
+         x64\Release\CoreApp.obj
+         x64\Release\CoreController.obj
+         x64\Release\fcgiapp.obj
+         x64\Release\fcgio.obj
+         x64\Release\fcgi_stdio.obj
+         x64\Release\os_win32.obj
+         x64\Release\MainApp.obj
+         x64\Release\MethodController.obj
+         x64\Release\QueryArg.obj
+         x64\Release\Request.obj
+         x64\Release\Request_old.obj
+         x64\Release\Response.obj
+         x64\Release\RESTController.obj
+         x64\Release\RouteTree.obj
+         x64\Release\string.obj
+         x64\Release\main.obj
+            Bibliothek "C:\Users\vikto\OneDrive\Dokumente\Web++\x64\Release\Web++.lib" und Objekt "C:\Users\vikto\OneDrive\Dokumente\Web++\x64\Release\Web++.exp" werden erstellt.
+         Code wird generiert.
+         6 of 5285 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+           2 functions were new in current compilation
+           23 functions had inline decision re-evaluated but remain unchanged
+         Codegenerierung ist abgeschlossen.
+         Web++.vcxproj -> C:\Users\vikto\OneDrive\Dokumente\Web++\x64\Release\Web++.exe
+     1>Die Erstellung von Projekt "C:\Users\vikto\OneDrive\Dokumente\Web++\Web++\Web++.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:14.00

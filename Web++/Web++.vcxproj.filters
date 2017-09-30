@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\app">
+      <UniqueIdentifier>{fd35f170-da68-476d-969c-7fc7398240a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\app\Web++">
+      <UniqueIdentifier>{312495ee-1f60-445f-800a-77290fcb3003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\app\Web++\Core">
+      <UniqueIdentifier>{42196379-65d1-4353-870d-d44056c453af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\app\Web++\Dispatcher">
+      <UniqueIdentifier>{1c2297dc-f9be-42ed-8cfe-4af340870435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\app">
+      <UniqueIdentifier>{4ae7bc91-cb89-4b39-9486-23b40658e3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\app\Web++">
+      <UniqueIdentifier>{1f91220b-8153-45ef-a352-c9b7bc788ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\app\Web++\Core">
+      <UniqueIdentifier>{b615727e-00de-4b9c-9ccc-ae40ca9db4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\app\Web++\Dispatcher">
+      <UniqueIdentifier>{4cf90917-48a2-4b11-b544-dc0db4246ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\app\Web++\libfcgi">
+      <UniqueIdentifier>{f375a1a5-856a-43bd-a1e1-1a9a6be54415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\app\Web++\libfcgi">
+      <UniqueIdentifier>{c0e6e2b8-b56f-4454-8fe1-b899927dba3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\app\Web++\Cookie.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\CoreApp.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\definitions.hpp">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\QueryArg.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\Request.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\Request_old.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\Response.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\string.h">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\CoreController.h">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\MainApp.hpp">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\MethodController.h">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\MethodManager.hpp">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\RESTController.h">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\RESTManager.hpp">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\RouteTree.h">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\CoreManager.hpp">
+      <Filter>Headerdateien\app\Web++\Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\MainController.h">
+      <Filter>Headerdateien\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\SiteController.h">
+      <Filter>Headerdateien\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fastcgi.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgi_config_x86.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgi_stdio.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgiapp.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgimisc.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgio.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgios.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\libfcgi\fcgi_config.h">
+      <Filter>Headerdateien\app\Web++\libfcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\app\Web++\messages.hpp">
+      <Filter>Headerdateien\app\Web++\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\app\Web++\Cookie.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\CoreApp.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\QueryArg.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\Request.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\Request_old.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\Response.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\string.cpp">
+      <Filter>Quelldateien\app\Web++\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\CoreController.cpp">
+      <Filter>Quelldateien\app\Web++\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\MainApp.cpp">
+      <Filter>Quelldateien\app\Web++\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\MethodController.cpp">
+      <Filter>Quelldateien\app\Web++\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\RESTController.cpp">
+      <Filter>Quelldateien\app\Web++\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\RouteTree.cpp">
+      <Filter>Quelldateien\app\Web++\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\MainController.cpp">
+      <Filter>Quelldateien\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\SiteController.cpp">
+      <Filter>Quelldateien\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\libfcgi\fcgi_stdio.c">
+      <Filter>Quelldateien\app\Web++\libfcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\libfcgi\fcgiapp.c">
+      <Filter>Quelldateien\app\Web++\libfcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\libfcgi\fcgio.cpp">
+      <Filter>Quelldateien\app\Web++\libfcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app\Web++\libfcgi\os_win32.c">
+      <Filter>Quelldateien\app\Web++\libfcgi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

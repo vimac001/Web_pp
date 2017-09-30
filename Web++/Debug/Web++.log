@@ -1,0 +1,45 @@
+﻿Der Buildvorgang wurde am 06.09.2015 11:56:20 gestartet.
+     1>Projekt "C:\Users\vikto\OneDrive\Dokumente\Web++\Web++\Web++.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\app\MainController.cpp ..\app\SiteController.cpp ..\app\Web++\CoreApp.cpp ..\app\Web++\CoreController.cpp ..\app\Web++\MainApp.cpp ..\app\Web++\MethodController.cpp ..\app\Web++\QueryArg.cpp ..\app\Web++\RESTController.cpp ..\app\Web++\Request.cpp ..\app\Web++\Request_old.cpp ..\app\Web++\Response.cpp ..\app\Web++\RouteTree.cpp ..\main.cpp
+         main.cpp
+         Code wird generiert...
+         Überspringen... (keine relevanten Änderungen gefunden)
+         RouteTree.cpp
+         Response.cpp
+         Request_old.cpp
+         Request.cpp
+         RESTController.cpp
+         QueryArg.cpp
+         MethodController.cpp
+         MainApp.cpp
+         CoreController.cpp
+         CoreApp.cpp
+         SiteController.cpp
+         MainController.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vikto\OneDrive\Dokumente\Web++\Debug\Web++.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\vikto\OneDrive\Dokumente\Web++\Debug\Web++.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vikto\OneDrive\Dokumente\Web++\Debug\Web++.lib" /MACHINE:X86 Debug\MainController.obj
+         Debug\SiteController.obj
+         Debug\Cookie.obj
+         Debug\CoreApp.obj
+         Debug\CoreController.obj
+         Debug\fcgiapp.obj
+         Debug\fcgio.obj
+         Debug\fcgi_stdio.obj
+         Debug\os_win32.obj
+         Debug\MainApp.obj
+         Debug\MethodController.obj
+         Debug\QueryArg.obj
+         Debug\Request.obj
+         Debug\Request_old.obj
+         Debug\Response.obj
+         Debug\RESTController.obj
+         Debug\RouteTree.obj
+         Debug\string.obj
+         Debug\main.obj
+         Web++.vcxproj -> C:\Users\vikto\OneDrive\Dokumente\Web++\Debug\Web++.exe
+     1>Die Erstellung von Projekt "C:\Users\vikto\OneDrive\Dokumente\Web++\Web++\Web++.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:01.51

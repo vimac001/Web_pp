@@ -1,0 +1,142 @@
+﻿Der Buildvorgang wurde am 21.10.2015 10:39:01 gestartet.
+     1>Projekt "C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\Web++\Web++.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\app\MainController.cpp ..\app\SiteController.cpp ..\app\Web++\Cookie.cpp ..\app\Web++\CoreApp.cpp ..\app\Web++\CoreController.cpp ..\app\Web++\libfcgi\fcgio.cpp ..\app\Web++\MainApp.cpp ..\app\Web++\MethodController.cpp ..\app\Web++\QueryArg.cpp ..\app\Web++\Request.cpp ..\app\Web++\Request_old.cpp ..\app\Web++\Response.cpp ..\app\Web++\RESTController.cpp ..\app\Web++\RouteTree.cpp ..\app\Web++\string.cpp ..\main.cpp
+         main.cpp
+         string.cpp
+         RouteTree.cpp
+         RESTController.cpp
+         Response.cpp
+         Request_old.cpp
+         Request.cpp
+         QueryArg.cpp
+         MethodController.cpp
+         MainApp.cpp
+         fcgio.cpp
+         CoreController.cpp
+         CoreApp.cpp
+         Cookie.cpp
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\cookie.cpp(101): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(116): note: Siehe Deklaration von "asctime"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\cookie.cpp(101): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: Siehe Deklaration von "localtime"
+         SiteController.cpp
+         MainController.cpp
+         Code wird generiert...
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\response.cpp(150): warning C4172: Adresse einer lokalen Variablen oder eines temporären Werts "" wird zurückgegeben
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt ..\app\Web++\libfcgi\fcgiapp.c ..\app\Web++\libfcgi\fcgi_stdio.c ..\app\Web++\libfcgi\os_win32.c
+         os_win32.c
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(373): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1183): note: Siehe Deklaration von "getenv"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(387): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1183): note: Siehe Deklaration von "getenv"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(513): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1183): note: Siehe Deklaration von "getenv"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(681): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(346): note: Siehe Deklaration von "strncpy"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(793): warning C4133: "Funktion": Inkompatible Typen - von "char *" zu "LPCWSTR"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(790): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(791): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: Siehe Deklaration von "strcat"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(916): warning C4133: "Funktion": Inkompatible Typen - von "char *" zu "LPCWSTR"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(865): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): note: Siehe Deklaration von "gethostbyname"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(913): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(119): note: Siehe Deklaration von "strcpy"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(914): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(90): note: Siehe Deklaration von "strcat"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1147): warning C4133: "Funktion": Inkompatible Typen - von "char *" zu "LPCWSTR"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1566): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: Siehe Deklaration von "inet_ntoa"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1625): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'LPCTSTR'
+         c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1625): note: consider using '%ls' in the format string
+         c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1625): note: consider using '%lls' in the format string
+         c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1625): note: consider using '%Ls' in the format string
+         c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\os_win32.c(1625): note: consider using '%ws' in the format string
+         fcgi_stdio.c
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgi_stdio.c(266): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(178): note: Siehe Deklaration von "strerror"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgi_stdio.c(311): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: Siehe Deklaration von "fopen"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgi_stdio.c(351): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(240): note: Siehe Deklaration von "freopen"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgi_stdio.c(357): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: Siehe Deklaration von "fopen"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgi_stdio.c(389): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(396): note: Siehe Deklaration von "setbuf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgi_stdio.c(754): warning C4996: 'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(431): note: Siehe Deklaration von "tmpfile"
+         fcgiapp.c
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(556): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(585): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(715): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(720): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(725): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(739): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(744): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(749): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(760): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(781): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(800): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(831): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(835): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(849): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(854): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(1527): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+     1>c:\users\vikto\google drive\entwicklung\projekte\web++ framework\web++\app\web++\libfcgi\fcgiapp.c(2149): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1183): note: Siehe Deklaration von "getenv"
+         Code wird generiert...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\x64\Debug\Web++.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\x64\Debug\Web++.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\x64\Debug\Web++.lib" /MACHINE:X64 x64\Debug\MainController.obj
+         x64\Debug\SiteController.obj
+         x64\Debug\Cookie.obj
+         x64\Debug\CoreApp.obj
+         x64\Debug\CoreController.obj
+         x64\Debug\fcgiapp.obj
+         x64\Debug\fcgio.obj
+         x64\Debug\fcgi_stdio.obj
+         x64\Debug\os_win32.obj
+         x64\Debug\MainApp.obj
+         x64\Debug\MethodController.obj
+         x64\Debug\QueryArg.obj
+         x64\Debug\Request.obj
+         x64\Debug\Request_old.obj
+         x64\Debug\Response.obj
+         x64\Debug\RESTController.obj
+         x64\Debug\RouteTree.obj
+         x64\Debug\string.obj
+         x64\Debug\main.obj
+            Bibliothek "C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\x64\Debug\Web++.lib" und Objekt "C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\x64\Debug\Web++.exp" werden erstellt.
+     1>CoreApp.obj : warning LNK4217: Lokal definiertes Symbol "FCGX_Init" wurde in "public: __cdecl wpp::CoreApp::CoreApp(int,int)" (??0CoreApp@wpp@@QEAA@HH@Z)-Funktion importiert.
+     1>CoreApp.obj : warning LNK4217: Lokal definiertes Symbol "FCGX_OpenSocket" wurde in "public: __cdecl wpp::CoreApp::CoreApp(char const *,int,int)" (??0CoreApp@wpp@@QEAA@PEBDHH@Z)-Funktion importiert.
+     1>CoreApp.obj : warning LNK4217: Lokal definiertes Symbol "FCGX_InitRequest" wurde in "protected: void __cdecl wpp::CoreApp::t_run(void)" (?t_run@CoreApp@wpp@@IEAAXXZ)-Funktion importiert.
+     1>CoreApp.obj : warning LNK4217: Lokal definiertes Symbol "FCGX_Accept_r" wurde in "protected: void __cdecl wpp::CoreApp::t_run(void)" (?t_run@CoreApp@wpp@@IEAAXXZ)-Funktion importiert.
+     1>CoreApp.obj : warning LNK4217: Lokal definiertes Symbol "FCGX_Finish_r" wurde in "protected: void __cdecl wpp::CoreApp::t_run(void)" (?t_run@CoreApp@wpp@@IEAAXXZ)-Funktion importiert.
+     1>CoreApp.obj : warning LNK4217: Lokal definiertes Symbol "FCGX_FPrintF" wurde in "protected: void __cdecl wpp::CoreApp::t_run(void)" (?t_run@CoreApp@wpp@@IEAAXXZ)-Funktion importiert.
+     1>Request.obj : warning LNK4217: Lokal definiertes Symbol "??0fcgi_streambuf@@QEAA@PEAUFCGX_Stream@@@Z (public: __cdecl fcgi_streambuf::fcgi_streambuf(struct FCGX_Stream *))" wurde in "public: __cdecl wpp::Request::Request(struct FCGX_Request &)" (??0Request@wpp@@QEAA@AEAUFCGX_Request@@@Z)-Funktion importiert.
+     1>Response.obj : warning LNK4049: Lokal definiertes Symbol "??0fcgi_streambuf@@QEAA@PEAUFCGX_Stream@@@Z (public: __cdecl fcgi_streambuf::fcgi_streambuf(struct FCGX_Stream *))" wurde importiert.
+     1>Request.obj : warning LNK4217: Lokal definiertes Symbol "??1fcgi_streambuf@@UEAA@XZ (public: virtual __cdecl fcgi_streambuf::~fcgi_streambuf(void))" wurde in "int `public: __cdecl wpp::Request::Request(struct FCGX_Request &)'::`1'::dtor$1" (?dtor$1@?0???0Request@wpp@@QEAA@AEAUFCGX_Request@@@Z@4HA)-Funktion importiert.
+     1>Response.obj : warning LNK4049: Lokal definiertes Symbol "??1fcgi_streambuf@@UEAA@XZ (public: virtual __cdecl fcgi_streambuf::~fcgi_streambuf(void))" wurde importiert.
+         Web++.vcxproj -> C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\x64\Debug\Web++.exe
+     1>Die Erstellung von Projekt "C:\Users\vikto\Google Drive\Entwicklung\Projekte\Web++ Framework\Web++\Web++\Web++.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+Verstrichene Zeit 00:00:17.46
